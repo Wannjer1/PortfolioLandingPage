@@ -216,17 +216,22 @@
     
 }
 
-
-
 /* PORTFOLIO SECTION */
 .foliosect{
     width: 100%;
     height: 80vh;
-    
 }
+
+
 
 /* CONTACT ME SECTION */
 
+.contact{
+    width: 100%;
+    height: 80vh;
+    background-color: #edefee;
+    
+}
 
 /* FOOTER SECTION */
 
