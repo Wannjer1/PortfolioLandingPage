@@ -1,26 +1,27 @@
 # Portfolio Landing Page
-___
+
 ### Author: Ann Wanjeri
 
-This my portfolio landing page. It is part of my first prep assessment for the Moringa Software Development course. It highligts a brief descrition of who i am, my projects and a contact me page option.
+This my portfolio landing page. It is part of my first prep assessment for the Moringa Software Development course. It highlights a brief descrition of who i am, my projects and a contact me section.
 
 ## PROJECT SET-UP
-** Installation
+
+Installation
 
 * Clone the repo to your local computer.
 * Fork the repo to appear in your listof repositories.
 
-** Requirements
+Requirements
 
 * Either a computer, phone,tablet or an Ipad (for viewing, cloning and forking).
 * Access to the internet.
 
 ## LINK TO PROJECT
----
+
 [Check out my portfolio](https://github.com/Wannjer1/Insurance-Website "Portfolio Landing Page")
 
 ## TECHNOLOGY USED
----
+
 * HTML- used to build the structure of the webpage
 * CSS- used to style the webpage
 * FontAwesome- used to source out icons
