@@ -18,7 +18,7 @@ Requirements
 
 ## LINK TO PROJECT
 
-[Check out my portfolio](https://github.com/Wannjer1/Insurance-Website "Portfolio Landing Page")
+[Check out my portfolio](https://wannjer1.github.io/PortfolioLandingPage/ "Portfolio Landing Page")
 
 ## TECHNOLOGY USED
 
