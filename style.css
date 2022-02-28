@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat Alternates', sans-serif;
+    /* font-family: 'Montserrat Alternates', sans-serif; */
 }
 
 /* HERO SECTION */
@@ -299,9 +299,14 @@ button {
 /* PORTFOLIO SECTION */
 .foliosect{
     width: 100%;
-    height: 80vh;
-    padding: 50px;
+    height: 100vh;
+    padding: 70px;
     text-align: center;
+}
+
+.foliosect h2{
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .gridcont{
@@ -310,32 +315,75 @@ button {
     margin-top: 30px;
     display: grid;
     grid-template-columns: auto auto;
+    gap: 20px;
    
 }
 
 .grid-item1{
-    width: auto;
-    height: auto;
-    background-color: red;
+    width: 30vw;
+    height: 30vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('./images/burger.jpg');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat ;
+    
 }
+
 
 .grid-item2{
     width: auto;
     height: auto;
-    background-color: pink;
+    color: #000;
+    line-height: 1.5;
+    padding: 20px;
+    font-size: larger;
+    box-shadow: 5px 10px #ffbf11;
 }
 
+.grid-item2 a{
+    color: red;
+    text-decoration: none;
+    
+}
+
+.grid-item2 a:hover{
+    color: #ffbf11;
+    
+}
+
+
 .grid-item3{
-    width: auto;
-    height: auto;
-    background-color: green;
+    width: 30vw;
+    height: 30vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('./images/insurance.jpg');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat ;
+
+   
 }
 
 .grid-item4{
     width: auto;
     height: auto;
-    background-color: #edefee;
+    color: #000;
+    line-height: 1.5;
+    padding: 20px;
+    font-size: larger;
+    box-shadow: 5px 10px;
 }
+
+.grid-item4 a{
+    color: red;
+    text-decoration: none;
+}
+
+.grid-item4 a:hover{
+    color: #ffbf11;
+    
+}
+
+
 
 /* CONTACT ME SECTION */
 
