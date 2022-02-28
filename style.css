@@ -323,7 +323,7 @@ button {
 .grid-item1{
     width: 30vw;
     height: 30vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('./images/burger.jpg');
+    background: url('./images/burger.png');
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat ;
@@ -356,7 +356,7 @@ button {
 .grid-item3{
     width: 30vw;
     height: 30vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('./images/insurance.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('./images/insurance.png');
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat ;
