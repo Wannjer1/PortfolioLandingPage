@@ -130,7 +130,7 @@ button {
 .hero2{
     width: 70%;
     height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('./images/self1.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('./images/selfhero.jpg');
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat ;
@@ -196,7 +196,7 @@ button {
 }
 
 .selfimg2{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('./images/self2.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('./images/selfabout.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -296,21 +296,106 @@ button {
 }
 
 /* PORTFOLIO SECTION */
-.foliosect{
+/* .foliosect{
     width: 100%;
     height: 80vh;
+    padding: 50px;
+    text-align: center;
 }
 
+.gridcont{
+    width: 100%;
+    height: 90%;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+   
+}
 
+.grid-item1{
+    width: auto;
+    height: auto;
+    background-color: red;
+}
+
+.grid-item2{
+    width: auto;
+    height: auto;
+    background-color: pink;
+}
+
+.grid-item3{
+    width: auto;
+    height: auto;
+    background-color: green;
+}
+
+.grid-item4{
+    width: auto;
+    height: auto;
+    background-color: #edefee;
+} */
 
 /* CONTACT ME SECTION */
 
 .contact{
     width: 100%;
-    height: 80vh;
-    background-color: #edefee;
+    height: 130vh;
+    background-color: #fff;
     text-align: center;
+    padding: 60px;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url('./images/contact2.jpg');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat ;
 }
+
+.contact h2{
+    font-size: 2em;
+    line-height: 1.5;
+}
+
+.contact span{
+    color: #ffbf11;
+}
+
+.contactform{
+    background-color: rgba(255,191,17, 0.7) ;
+    width: 50vw;
+    height: 90vh;
+    margin-left: 20em;
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: justify;
+    font-size: larger;
+
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #000;
+  }
+  
 
 /* FOOTER SECTION */
 

@@ -78,18 +78,19 @@
 
     <!-- PORTFOLIO SECTION -->
     <section class="foliosect">
-        <div class="foliomain">
-            <div>
+        <h2>PORTFOLIO</h2>
+        <div class="gridcont">
+            <div class="grid-item1">
                 <img href="./images/burger.jpg" alt="burger image">
             </div>
-            <div>
+            <div class="grid-item2">
                 <h3>BURGER PALACE</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, consectetur.</p>
             </div>
-            <div>
+            <div class="grid-item3">
                 <img href="./images/insurance.jpg" alt="Business people">
             </div>
-            <div>
+            <div class="grid-item4">
                 <h3>INSURANCE COMPANY WEBSITE</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, consectetur.</p>
             </div>
@@ -99,18 +100,22 @@
 
     <!-- CONTACT SECTION -->
     <section class="contact">
-        <h2>CONTACT ME TODAY</h2>
-        <form>
+        <h2>Let's Work Together<br>CONTACT <span>ME TODAY</span></h2>
+        <form class="contactform">
             <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname" value="your first name"><br>
+            <input type="text" id="fname" name="fname" placeholder="first name"><br>
             <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname" value="your last name"><br>
+            <input type="text" id="lname" name="lname" placeholder="last name"><br>
             <label for="email">Email:</label><br>
-            <input type="text" id="email" name="email" value="email@gmail.com"><br>
+            <input type="text" id="email" name="email" placeholder="email@gmail.com"><br>
             <label for="services">Services:</label><br>
-            <input type="text" id="services" name="services" value="services"><br><br>
-            <label for="subject">Subject:</label><br>
-            <input type="text" id="subject" name="subject" value="subject"><br><br>
+            <select id="services" name="services">
+                <option value="Web Development" >Web Development</option>
+                <option value="Web,UX/UI">Web, UX/UI Design</option>
+                <option value="mobile design">Mobile App UI/UX Design</option>
+            </select>
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" style="height: 200px;"></textarea>
         
             <input type="submit" value="Submit">
         </form>
