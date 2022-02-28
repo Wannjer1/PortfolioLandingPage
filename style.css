@@ -297,7 +297,7 @@ button {
 }
 
 /* PORTFOLIO SECTION */
-/* .foliosect{
+.foliosect{
     width: 100%;
     height: 80vh;
     padding: 50px;
@@ -335,7 +335,7 @@ button {
     width: auto;
     height: auto;
     background-color: #edefee;
-} */
+}
 
 /* CONTACT ME SECTION */
 
@@ -370,6 +370,7 @@ button {
     border-radius: 10px;
     text-align: justify;
     font-size: larger;
+    
 
 }
 
